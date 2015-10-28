@@ -10,3 +10,9 @@ c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApp
 C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.exe.config
 C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.exe
 C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.pdb
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.exe
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.pdb
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.csprojResolveAssemblyReference.cache
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.Form1.resources
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.Properties.Resources.resources
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.csproj.GenerateResource.Cache

@@ -29,9 +29,8 @@
         private void InitializeComponent()
         {
             this.btnRead = new System.Windows.Forms.Button();
-            this.btnInport = new System.Windows.Forms.Button();
-            this.btnStop = new System.Windows.Forms.Button();
             this.rtxtInput = new System.Windows.Forms.TextBox();
+            this.lstCommands = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnRead
@@ -44,42 +43,36 @@
             this.btnRead.UseVisualStyleBackColor = true;
             this.btnRead.Click += new System.EventHandler(this.btnRead_Click);
             // 
-            // btnInport
-            // 
-            this.btnInport.Location = new System.Drawing.Point(433, 42);
-            this.btnInport.Name = "btnInport";
-            this.btnInport.Size = new System.Drawing.Size(112, 23);
-            this.btnInport.TabIndex = 7;
-            this.btnInport.Text = "Start Inport";
-            this.btnInport.UseVisualStyleBackColor = true;
-            this.btnInport.Click += new System.EventHandler(this.btnInport_Click);
-            // 
-            // btnStop
-            // 
-            this.btnStop.Location = new System.Drawing.Point(432, 72);
-            this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(113, 23);
-            this.btnStop.TabIndex = 8;
-            this.btnStop.Text = "Stop Inport";
-            this.btnStop.UseVisualStyleBackColor = true;
-            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
-            // 
             // rtxtInput
             // 
+            this.rtxtInput.BackColor = System.Drawing.Color.Black;
+            this.rtxtInput.ForeColor = System.Drawing.Color.White;
             this.rtxtInput.Location = new System.Drawing.Point(13, 13);
             this.rtxtInput.Multiline = true;
             this.rtxtInput.Name = "rtxtInput";
             this.rtxtInput.Size = new System.Drawing.Size(413, 350);
             this.rtxtInput.TabIndex = 9;
             // 
+            // lstCommands
+            // 
+            this.lstCommands.BackColor = System.Drawing.Color.Black;
+            this.lstCommands.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstCommands.ForeColor = System.Drawing.Color.White;
+            this.lstCommands.FormattingEnabled = true;
+            this.lstCommands.ItemHeight = 20;
+            this.lstCommands.Location = new System.Drawing.Point(432, 41);
+            this.lstCommands.Name = "lstCommands";
+            this.lstCommands.Size = new System.Drawing.Size(259, 324);
+            this.lstCommands.TabIndex = 10;
+            this.lstCommands.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 375);
+            this.Controls.Add(this.lstCommands);
             this.Controls.Add(this.rtxtInput);
-            this.Controls.Add(this.btnStop);
-            this.Controls.Add(this.btnInport);
             this.Controls.Add(this.btnRead);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -91,9 +84,8 @@
         #endregion
 
         private System.Windows.Forms.Button btnRead;
-        private System.Windows.Forms.Button btnInport;
-        private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.TextBox rtxtInput;
+        private System.Windows.Forms.ListBox lstCommands;
     }
 }
 
