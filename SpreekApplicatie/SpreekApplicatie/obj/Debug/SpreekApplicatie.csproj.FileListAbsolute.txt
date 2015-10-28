@@ -7,3 +7,6 @@ c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApp
 c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.exe
 c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.pdb
 c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.csprojResolveAssemblyReference.cache
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.exe.config
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.exe
+C:\Users\Dennis\Documents\GitHub\Voice_Recognition_App\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.pdb
