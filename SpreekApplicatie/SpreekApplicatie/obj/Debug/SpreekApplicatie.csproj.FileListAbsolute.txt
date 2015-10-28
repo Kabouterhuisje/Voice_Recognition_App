@@ -1,0 +1,9 @@
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.exe.config
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.exe
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\bin\Debug\SpreekApplicatie.pdb
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.Form1.resources
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.Properties.Resources.resources
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.csproj.GenerateResource.Cache
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.exe
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.pdb
+c:\users\dennis\documents\visual studio 2013\Projects\SpreekApplicatie\SpreekApplicatie\obj\Debug\SpreekApplicatie.csprojResolveAssemblyReference.cache
