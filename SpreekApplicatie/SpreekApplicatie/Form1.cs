@@ -38,7 +38,7 @@ namespace SpreekApplicatie
             _recognizer.RecognizeAsync(RecognizeMode.Multiple);
         }
 
-        private void btnRead_Click(object sender, EventArgs e)
+        public void btnRead_Click(object sender, EventArgs e)
         {
             // Message if there is no text in the text box
             if (string.IsNullOrEmpty(rtxtInput.Text))
