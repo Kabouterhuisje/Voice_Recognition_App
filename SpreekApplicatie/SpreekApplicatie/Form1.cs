@@ -27,7 +27,7 @@ namespace SpreekApplicatie
         String userName = Environment.UserName;
         Random rnd = new Random();
         String greetChoice;
-        int count = 1;
+        public bool StartSpeaking = false;
 
         public Form1()
         {
@@ -56,7 +56,7 @@ namespace SpreekApplicatie
 
         private void _recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
-            if (e.Result.Text != "")
+            if (e.Result.Text != "" && StartSpeaking == true)
             {
                 string time = now.GetDateTimeFormats('t')[0];
                 int ranNum;
@@ -141,6 +141,20 @@ namespace SpreekApplicatie
                 }
             }
             
+        }
+
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            btnStart.Enabled = false;
+            StartSpeaking = true;
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            btnStop.Enabled = false;
+            btnStart.Enabled = true;
+            StartSpeaking = false;
         }
 
     }

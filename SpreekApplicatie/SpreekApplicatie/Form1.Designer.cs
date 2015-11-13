@@ -31,13 +31,15 @@
             this.btnRead = new System.Windows.Forms.Button();
             this.rtxtInput = new System.Windows.Forms.TextBox();
             this.lstCommands = new System.Windows.Forms.ListBox();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRead
             // 
             this.btnRead.Location = new System.Drawing.Point(432, 12);
             this.btnRead.Name = "btnRead";
-            this.btnRead.Size = new System.Drawing.Size(113, 23);
+            this.btnRead.Size = new System.Drawing.Size(80, 23);
             this.btnRead.TabIndex = 6;
             this.btnRead.Text = "Read Text";
             this.btnRead.UseVisualStyleBackColor = true;
@@ -66,11 +68,33 @@
             this.lstCommands.TabIndex = 10;
             this.lstCommands.Visible = false;
             // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(518, 11);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(80, 23);
+            this.btnStart.TabIndex = 11;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(604, 11);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(80, 23);
+            this.btnStop.TabIndex = 12;
+            this.btnStop.Text = "Stop";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(704, 375);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lstCommands);
             this.Controls.Add(this.rtxtInput);
             this.Controls.Add(this.btnRead);
@@ -86,6 +110,8 @@
         private System.Windows.Forms.Button btnRead;
         private System.Windows.Forms.TextBox rtxtInput;
         private System.Windows.Forms.ListBox lstCommands;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnStop;
     }
 }
 
